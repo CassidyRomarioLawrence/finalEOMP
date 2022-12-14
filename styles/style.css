@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Anton', sans-serif;
+    font-family: fantasy;
 }
 
 body{
@@ -25,4 +25,14 @@ body{
 .navbar-nav a:hover{
     text-shadow: 2px 2px 2px white;
     color: black;
+}
+
+.title{
+    height: 80vh;
+    color: white;
+    text-shadow: 2.5px 2.5px 2.5px black;
+}
+
+.display-6{
+    color: yellow;
 }
