@@ -75,10 +75,6 @@ JSON.parse(localStorage.getItem('item')) :
     },
 ];
 
-let vans = sneakers.filter(data => data.type === 'HIGH-TOP')
-
-console.log(vans);
-
 function displayed(){
     sneakers.forEach((item)=>{
         document.querySelector('#my-products').innerHTML+=`
